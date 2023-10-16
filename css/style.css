@@ -1,0 +1,113 @@
+/* Variables */
+
+:root {
+  --main-color: rgb(29, 29, 115);
+  --hover-color: rgb(245, 91, 53);
+  --img-color: white;
+}
+
+/* Main style */
+* {
+  color: var(--main-color);
+}
+
+/* Animation */
+
+li:hover, .nav-link:hover, .btn a:hover, a:hover {
+  color: var(--hover-color);
+}
+
+.btn:hover {
+    background-color: rgb(113, 151, 233);
+    border: none;
+    -webkit-box-shadow: -11px 14px 20px -1px rgba(87, 89, 109, 1);
+    -moz-box-shadow: -11px 14px 20px -1px rgba(87, 89, 109, 1);
+    box-shadow: -11px 14px 20px -1px rgba(87, 89, 109, 1);
+}
+
+.card:hover {
+  transform: scale(1.1);
+  -webkit-box-shadow: -11px 14px 20px -1px rgba(87, 89, 109, 1);
+    -moz-box-shadow: -11px 14px 20px -1px rgba(87, 89, 109, 1);
+    box-shadow: -11px 14px 20px -1px rgba(87, 89, 109, 1);
+}
+
+.card {
+  transition: transform 0.25s;
+}
+
+.accordion-button:hover {
+  -webkit-box-shadow: -11px 14px 20px -1px rgba(87, 89, 109, 1);
+    -moz-box-shadow: -11px 14px 20px -1px rgba(87, 89, 109, 1);
+    box-shadow: -11px 14px 20px -1px rgba(87, 89, 109, 1);
+    color: var(--hover-color);
+    background-color: rgb(113, 151, 233);
+}
+
+.accordion-collapse:hover {
+  background-color: rgb(252, 249, 249);
+}
+
+/* NavBar */
+.h1, .nav-link{
+  color: var(--main-color);
+} 
+
+
+/* Hero banner */
+
+.hero-banner {
+  height: 230px;
+  background-image: url("./images/tech.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: initial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  color: var(--img-color);
+}
+
+/* about me */
+
+.about-me {
+  text-align: justify;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 3px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.contact-list-item:last-child {
+  list-style: none;
+}
+
+/* projects */
+
+.card a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+h3 {
+  color: var(--main-color);
+}
+.amo {
+  height: inherit;
+}
+
+/* skills */
+.accordion-button {
+  color: var(--main-color);
+  border-radius: 3px;
+}
+
