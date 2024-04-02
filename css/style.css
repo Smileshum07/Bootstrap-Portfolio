@@ -13,7 +13,7 @@
 
 /* Animation */
 
-li:hover, .nav-link:hover, .btn a:hover, a:hover {
+li:hover, .nav-link:hover, .btn a:hover, a:hover, h3:hover {
   color: var(--hover-color);
 }
 
